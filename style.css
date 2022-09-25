@@ -1,0 +1,377 @@
+@charset"UTF-8";
+
+html{
+  font-size:100%;
+}
+
+body{
+  font-family:"Yu Gothic Medium","游ゴシック　Medium","游ゴシック体","ヒラギノ角ゴ Pro W3",sans-serif;
+  line-height:1.7;
+  color:#432;
+  margin: 0;
+}
+
+a{
+  text-decoration:none;
+}
+
+img{
+  max-width:100%;
+}
+
+nav li{
+  list-style:none;
+  font-size: 1.4rem;
+  margin-right: 1.8rem;
+}
+
+li{
+  list-style:none;
+}
+
+.logo {
+  width: 300px;
+}
+
+.page-header{
+  display:flex;
+  justify-content:space-between;
+}
+
+.main-nav{
+  display:flex;
+  margin-top: 3.9rem;
+}
+
+nav a{
+  color:#432
+}
+
+nav a:hover{
+  color:#0bd;
+}
+
+#home{
+  background-image:url(../images/home.png);
+  background-color:#d1c7c9;
+  background-blend-mode:overlay;
+  background-size:cover;
+  min-height: 100vh;
+}
+
+div h1{
+  font-size:3rem;
+  text-transform: none;
+  font-family: 'Lobster', cursive;
+}
+
+.home-message{
+  font-size:1.2rem;
+}
+
+.home-menu-btn{
+  color:#fff;
+  background-color:#0bd;
+  font-size:1.5rem;
+  border-radius:5px;
+  padding:18px 32px;
+}
+
+.home-menu-btn:hover{
+  background-color:#48d1cc;
+}
+
+.home-wrapper{
+  text-align:center;
+}
+
+.home-wrapper p{
+  margin-bottom:4%;
+}
+
+.wrapper{
+max-width:1100px;
+margin:0 auto;
+padding:0 4%;
+height: 150px;
+}
+
+#news{
+  background-image:url(../images/news-top.jpg);
+  height:270px;
+  margin-bottom:40px;
+  background-size:cover;
+}
+
+.page-title{
+  text-align:center;
+  margin: 0 auto;
+  font-family: 'Philosopher',serif;
+  font-size:4.2rem;
+}
+
+article{
+  width:60%;
+  margin-left:15%;
+}
+
+aside{
+  width:22%;
+  margin-right:10%;
+}
+
+.news-title{
+  position:relative;
+  padding-top:4px;
+  margin-bottom:40px;
+}
+
+.post-date{
+  background:#0bd;
+  border-radius:50%;
+  color:#fff;
+  width:100px;
+  height:100px;
+  font-size:1.625rem;
+  text-align:center;
+  position:absolute;
+  top:0;
+  padding-top:10px;
+}
+
+.post-date span{
+  font-size:1rem;
+  border-top:1px rgba(255,255,255,.5) solid;
+  padding-top:6px;
+  display:block;
+  width:60%;
+  margin:0 auto;
+}
+
+.news-title h2,.post-cat{
+  margin-left:120px;
+}
+
+.news-title h2{
+  font-weight:normal;
+  font-size:2rem;
+  font-family:"Yu Mincho","Yumincho",serif;
+}
+
+
+
+.news-wrapper{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:50px;
+}
+
+.news-img{
+  width:85%;
+}
+
+.sub-title{
+  border-bottom:2px solid #0bd;
+}
+
+.news-list{
+    color:#432;
+    padding:10px;
+    display:block;
+    cursor : pointer;
+}
+
+.news-list a{
+  display:block;
+}
+
+.news-list:hover{
+  background-color:rgb(199, 232, 237);
+}
+
+.news-category{
+  padding-left: 0;
+}
+
+.info{
+  margin-top:2rem;
+}
+
+footer{
+  background-color:rgb(85, 75, 52);
+  text-align:center;
+  height:80px;
+  line-height:80px;
+ 
+}
+
+footer p{
+  color:#fff;
+}
+
+#contact{
+  background-image:url(../images/contact.jpg);
+  min-height:100vh;
+  margin-bottom:40px;
+  background-size:cover;
+}
+
+.bg-rgba{
+  background-color:rgba(255,255,255,.7);
+}
+
+label{
+  font-size:1.6rem;
+  display:block;
+}
+
+.contact-input{
+  width:100%;
+  max-width:240px;
+  height:40px;
+}
+
+.contact-textarea{
+  width:100%;
+  max-width:400px;
+  height:90px;
+}
+
+input,textarea{
+  border:solid 2px rgb(211, 229, 231);
+  border-radius:4px;
+  background-color:rgba(255,255,255,.7);
+}
+
+.btn{
+  padding:15px 25px;
+  font-size:1.2rem;
+  border-radius:5px;
+  background-color:#0bd;
+  border:solid 2px #0bd;
+  color:#fff;
+  cursor:pointer;
+}
+
+.btn:hover{
+  background-color:#48d1cc;
+  border:solid 2px #48d1cc;
+}
+
+.contact-wrapper{
+  height:65vh;
+  margin-left:20%;
+}
+
+#location .wrapper{
+  display:flex;
+  height:60vh;
+  margin-bottom:40px;
+  justify-content:space-between;
+}
+
+.location-info h2{
+  border-bottom:solid 2px #0bd;
+}
+
+.fa-brands{
+  font-size:2.3rem;
+  margin:10px;
+}
+
+.fa-brands:hover{
+  opacity:.4;
+}
+
+
+.sns-icon{ 
+  display:flex;
+  justify-content:center;
+}
+
+.fa-twitter{
+  color:#1da1f2;
+}
+
+.fa-facebook{
+  color:#315096;
+}
+
+.fa-instagram{
+  color:#e1306c;
+}
+
+#menu{
+  background-image:url(../images/menu-top.jpg);
+  background-size:cover;
+  min-height: 100vh;
+  background-color:#d1c7c9;
+  background-blend-mode:overlay;
+}
+
+.menu-top-text{
+  text-align:center;
+  font-size:1.4rem;
+  margin-top:70px;
+}
+
+.menu-contents{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:26px;
+  margin:6% 20% 50px;
+}
+
+.menu-content img{
+  height:100%;
+}
+
+.menu-content{
+  padding:0;
+}
+
+.menu-content:hover{
+  opacity:.4;
+  cursor:pointer;
+  padding:0;
+}
+
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+#modal-content img{
+  width:100%;
+  border-radius:10px;
+}
+
+.modal-text{
+  font-size:20px;
+}
