@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Freddy's Bakery Menu</title>
+    <meta name="description" content="焼き立てのパンを提供する地域に根差したパン屋"
+    <link rel="stylesheet" href="http://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://kit.fontawesome.com/b16e56cde4.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <script src="jQuery/script.js"></script>
+
+
+    <div class="modal-wrapper" id="bread-modal">
+    <div class="modal">
+      <div class="close-modal">
+        <i class="fa fa-2x fa-times"></i>
+      </div>
+      <div id="modal-content">
+        <img src="images/bread.jpg" alt="食パン">
+        <p class="modal-text">食パン&emsp;250円</p>
+        <p>ふんわりとした触感が特徴の食パンです。ほんのりとした<br>甘みがあるため、何もつけなくてもおいしく召し上がれます。</p>
+      </div>
+    </div>
+    </div>
+
+    <div class="modal-wrapper" id="carry-modal">
+      <div class="modal">
+        <div class="close-modal">
+          <i class="fa fa-2x fa-times"></i>
+        </div>
+        <div id="modal-content">
+          <img src="images/carry.jpg" alt="カレーパン">
+          <p class="modal-text">カレーパン&emsp;200円</p>
+          <p>外はカリッと、中はもっちりとしたパンに<br>ピリ辛なオリジナルカレーを合わせました。</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="modal-wrapper" id="cream-modal">
+        <div class="modal">
+          <div class="close-modal">
+            <i class="fa fa-2x fa-times"></i>
+          </div>
+          <div id="modal-content">
+            <img src="images/cream.jpg" alt="クリームパン">
+            <p class="modal-text">クリームパン&emsp;200円</p>
+            <p>薄皮のパンにカスタードクリームをたっぷりと<br>詰め込みました。温めてもおいしくいただけます。</p>
+          </div>
+        </div>
+        </div>
+
+        <div class="modal-wrapper" id="melon-modal">
+          <div class="modal">
+            <div class="close-modal">
+              <i class="fa fa-2x fa-times"></i>
+            </div>
+            <div id="modal-content">
+              <img src="images/melon.jpg" alt="メロンパン">
+              <p class="modal-text">メロンパン&emsp;200円</p>
+              <p>カリカリのクッキーにはメロンの果汁を加えています。<br>濃厚なメロンの味をお楽しみください。</p>
+            </div>
+          </div>
+          </div>
+
+          <div class="modal-wrapper" id="sand-modal">
+            <div class="modal">
+              <div class="close-modal">
+                <i class="fa fa-2x fa-times"></i>
+              </div>
+              <div id="modal-content">
+                <img src="images/sand.jpg" alt="サンドイッチ">
+                <p class="modal-text">サンドイッチ&emsp;200円</p>
+                <p>無農薬で育てた新鮮野菜を当店の食パンでサンドしました。<br>ボリュームたっぷりでランチにもぴったりです。</p>
+              </div>
+            </div>
+            </div>
+
+            <div class="modal-wrapper" id="kurowassan-modal">
+              <div class="modal">
+                <div class="close-modal">
+                  <i class="fa fa-2x fa-times"></i>
+                </div>
+                <div id="modal-content">
+                  <img src="images/kurowassan.jpg" alt="クロワッサン">
+                  <p class="modal-text">クロワッサン&emsp;200円</p>
+                  <p>生地にバターをたっぷりとくわえています。<br>芳醇なバターの香りとサクサクの生地をお楽しみください。</p>
+                </div>
+              </div>
+              </div>
+
+              <div class="modal-wrapper" id="an-modal">
+                <div class="modal">
+                  <div class="close-modal">
+                    <i class="fa fa-2x fa-times"></i>
+                  </div>
+                  <div id="modal-content">
+                    <img src="images/an.jpg" alt="アンパン">
+                    <p class="modal-text">アンパン&emsp;200円</p>
+                    <p>甘みを抑えたこしあんを使用しているため<br>しつこくない味わいが人気です。</p>
+                  </div>
+                </div>
+                </div>
+
+                <div class="modal-wrapper" id="bageto-modal">
+                  <div class="modal">
+                    <div class="close-modal">
+                      <i class="fa fa-2x fa-times"></i>
+                    </div>
+                    <div id="modal-content">
+                      <img src="images/bageto.jpg" alt="バゲット">
+                      <p class="modal-text">バゲット&emsp;250円</p>
+                      <p>小麦の香りを味わえる当店自慢のバゲットです。<br>そのままでも良し、アレンジしても良しです。</p>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="modal-wrapper" id="garik-modal">
+                    <div class="modal">
+                      <div class="close-modal">
+                        <i class="fa fa-2x fa-times"></i>
+                      </div>
+                      <div id="modal-content">
+                        <img src="images/garik.jpg" alt="ガーリックパン">
+                        <p class="modal-text">ガーリックパン&emsp;250円</p>
+                        <p>バゲットにニンニクペーストを塗り焼き上げました。<br>ニンニクと小麦の香りのハーモニーをお楽しみください。</p>
+                      </div>
+                    </div>
+                    </div>
+
+
+
+    <div id="menu">
+      <header class="page-header wrapper">
+        <h1><a href="index.html"><img class="logo" src="images/logoc.png" alt="Freddy's Bakery ホームページ"></a></h1>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="news.html">News</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="wrapper">
+        <h2 class="page-title">Menu</h2>
+        <p class="menu-top-text">地域に根差したパン屋を目指すFreddy's Bakery。<br>国産の食材を使った安心、安全なパンが特徴です。</p>
+      </div>
+    </div>
+    <div class="menu-contents">
+      <div class="menu-content" id="bread-show">
+        <img src="images/bread.jpg" alt="食パン">
+      </div>
+
+      <div class="menu-content" id="carry-show">
+        <img src="images/carry.jpg" alt="カレーパン">
+      </div>
+
+      <div class="menu-content" id="cream-show">
+        <img src="images/cream.jpg" alt="クリームパン">
+      </div>
+
+      <div class="menu-content" id="melon-show">
+        <img src="images/melon.jpg" alt="メロンパン">
+      </div>
+
+      <div class="menu-content" id="sand-show">
+        <img src="images/sand.jpg" alt="サンドイッチ">
+      </div>
+
+      <div class="menu-content" id="kurowassan-show">
+        <img src="images/kurowassan.jpg" alt="クロワッサン">
+      </div>
+
+      <div class="menu-content" id="an-show">
+        <img src="images/an.jpg" alt="アンパン">
+      </div>
+
+      <div class="menu-content" id="bageto-show">
+        <img src="images/bageto.jpg" alt="バゲット">
+      </div>
+
+      <div class="menu-content" id="garik-show">
+        <img src="images/garik.jpg" alt="ガーリックパン">
+      </div>
+    </div>
+
+
+   
+
+    <footer>
+      <p><small>© 2022 Freddy</small></p>
+    </footer>
+  </body>
+</html>
